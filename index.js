@@ -15,7 +15,7 @@ const publicPath = path.resolve( __dirname, 'public' );
 app.use( express.static( publicPath ) );
 
 
-server.listen( process.env.PORT, ( err ) => {
+server.listen( 10001, ( err ) => {
 
     if( err ) throw new Error(err);
 
